@@ -20,7 +20,7 @@ getAllShops = (req, res) => {
 shopsRouter = express.Router();
 shopsRouter.route("/").get(getAllShops);
 
-app.use("/api/v1/shops", shopsRouter);
+app.use("/", shopsRouter);
 
 // app.get("/", (req, res) => {
 //   res.json([{ name: "Zoltán" }]);
