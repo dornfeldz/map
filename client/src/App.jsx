@@ -4,10 +4,9 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/api")
+    fetch("https://map-backend-8gzqdd29x-lilxolis-projects.vercel.app/")
       .then((res) => {
         res.json();
-        console.log(res);
       })
       .then((data) => setData(data));
   }, []);
