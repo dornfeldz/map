@@ -23,7 +23,7 @@ app.use(cors()); // Use this after the variable declaration
 // app.use("/api/v1/shops", shopsRouter);
 
 app.get("/", (req, res) => {
-  res.json([{ name: "Zozo" }]);
+  res.json([{ name: "Zoltán" }]);
   // res.send("Hello world");
 });
 
