@@ -1,17 +1,30 @@
 import { useEffect, useState } from "react";
+import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import Map from "./Map";
+
+import Shop from "./Shop";
 
 function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("https://map-backend-git-main-lilxolis-projects.vercel.app/")
-      .then((res) => {
-        res.json();
-      })
+    fetch("http://localhost:8000/")
+      .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
   console.log(data);
-  return <div>{data}</div>;
+
+  return (
+    // <div>
+    //   {data.map((shop) => (
+    //     <Shop key={shop.name} shop={shop} />
+    //   ))}
+    // </div>
+    <div className="h-full w-[25%] flex items-center justify-center">
+      <Map />
+    </div>
+  );
 }
 
 export default App;
