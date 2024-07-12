@@ -4,8 +4,8 @@
     "description": "A cozy place for coffee and snacks",
     "owner": "Alice Johnson",
     "coordinates": {
-      "latitude": 40.712776,
-      "longitude": -74.005974
+      "latitude": 47.4969,
+      "longitude": 19.0635
     }
   },
   {
@@ -13,8 +13,8 @@
     "description": "Your local bookstore with a wide variety of genres",
     "owner": "Bob Smith",
     "coordinates": {
-      "latitude": 34.052235,
-      "longitude": -118.243683
+      "latitude": 47.5038,
+      "longitude": 19.0654
     }
   },
   {
@@ -22,8 +22,8 @@
     "description": "Latest gadgets and electronics",
     "owner": "Carol Davis",
     "coordinates": {
-      "latitude": 37.774929,
-      "longitude": -122.419418
+      "latitude": 47.5094,
+      "longitude": 19.057
     }
   },
   {
@@ -31,8 +31,8 @@
     "description": "Trendy clothing and accessories",
     "owner": "David Martinez",
     "coordinates": {
-      "latitude": 51.507351,
-      "longitude": -0.127758
+      "latitude": 47.4938,
+      "longitude": 19.0545
     }
   },
   {
@@ -40,8 +40,233 @@
     "description": "Gallery and art supplies",
     "owner": "Eve Thompson",
     "coordinates": {
-      "latitude": 48.856613,
-      "longitude": 2.352222
+      "latitude": 47.4981,
+      "longitude": 19.0369
+    }
+  },
+  {
+    "name": "Gourmet Grocers",
+    "description": "Fresh organic produce and gourmet items",
+    "owner": "Frank White",
+    "coordinates": {
+      "latitude": 47.5102,
+      "longitude": 19.0558
+    }
+  },
+  {
+    "name": "Pet Paradise",
+    "description": "Pet supplies and grooming services",
+    "owner": "Grace Hall",
+    "coordinates": {
+      "latitude": 47.5011,
+      "longitude": 19.0601
+    }
+  },
+  {
+    "name": "Music Masters",
+    "description": "Instruments and music lessons",
+    "owner": "Henry Clark",
+    "coordinates": {
+      "latitude": 47.5049,
+      "longitude": 19.0682
+    }
+  },
+  {
+    "name": "Baker's Delight",
+    "description": "Freshly baked breads and pastries",
+    "owner": "Ivy Brown",
+    "coordinates": {
+      "latitude": 47.5074,
+      "longitude": 19.0433
+    }
+  },
+  {
+    "name": "Wellness Works",
+    "description": "Spa and wellness center",
+    "owner": "Jack Lee",
+    "coordinates": {
+      "latitude": 47.4953,
+      "longitude": 19.0419
+    }
+  },
+  {
+    "name": "Vintage Vogue",
+    "description": "Retro and vintage clothing",
+    "owner": "Karen Walker",
+    "coordinates": {
+      "latitude": 47.497,
+      "longitude": 19.0522
+    }
+  },
+  {
+    "name": "Green Thumb",
+    "description": "Garden center and plant nursery",
+    "owner": "Leo Young",
+    "coordinates": {
+      "latitude": 47.5027,
+      "longitude": 19.0491
+    }
+  },
+  {
+    "name": "Cycle City",
+    "description": "Bicycle sales and repairs",
+    "owner": "Mia Wright",
+    "coordinates": {
+      "latitude": 47.508,
+      "longitude": 19.0384
+    }
+  },
+  {
+    "name": "Beauty Bliss",
+    "description": "Beauty salon and spa treatments",
+    "owner": "Nina King",
+    "coordinates": {
+      "latitude": 47.4925,
+      "longitude": 19.0468
+    }
+  },
+  {
+    "name": "Home Comforts",
+    "description": "Furniture and home decor",
+    "owner": "Oscar Green",
+    "coordinates": {
+      "latitude": 47.5016,
+      "longitude": 19.0642
+    }
+  },
+  {
+    "name": "Toy Town",
+    "description": "Toys and games for all ages",
+    "owner": "Paula Adams",
+    "coordinates": {
+      "latitude": 47.5062,
+      "longitude": 19.0611
+    }
+  },
+  {
+    "name": "Sweet Treats",
+    "description": "Candy and dessert shop",
+    "owner": "Quinn Baker",
+    "coordinates": {
+      "latitude": 47.4993,
+      "longitude": 19.056
+    }
+  },
+  {
+    "name": "Digital Dreams",
+    "description": "Photography and videography services",
+    "owner": "Rachel Scott",
+    "coordinates": {
+      "latitude": 47.5056,
+      "longitude": 19.0427
+    }
+  },
+  {
+    "name": "Fitness First",
+    "description": "Gym and fitness center",
+    "owner": "Sam Parker",
+    "coordinates": {
+      "latitude": 47.4997,
+      "longitude": 19.0703
+    }
+  },
+  {
+    "name": "Flower Fantasy",
+    "description": "Florist with a wide selection of flowers",
+    "owner": "Tina Morgan",
+    "coordinates": {
+      "latitude": 47.5078,
+      "longitude": 19.0589
+    }
+  },
+  {
+    "name": "Taste of Hungary",
+    "description": "Traditional Hungarian cuisine restaurant",
+    "owner": "Anna Kovács",
+    "coordinates": {
+      "latitude": 48.1047,
+      "longitude": 20.791
+    }
+  },
+  {
+    "name": "Book Haven",
+    "description": "A paradise for book lovers",
+    "owner": "Béla Nagy",
+    "coordinates": {
+      "latitude": 48.1012,
+      "longitude": 20.7915
+    }
+  },
+  {
+    "name": "Tech World",
+    "description": "Latest tech gadgets and accessories",
+    "owner": "Csaba Tóth",
+    "coordinates": {
+      "latitude": 48.1042,
+      "longitude": 20.7874
+    }
+  },
+  {
+    "name": "Fashion Forward",
+    "description": "Trendy and stylish clothing",
+    "owner": "Dóra Szabó",
+    "coordinates": {
+      "latitude": 48.1075,
+      "longitude": 20.7938
+    }
+  },
+  {
+    "name": "Artistic Expressions",
+    "description": "Art gallery and creative workshops",
+    "owner": "Erika Varga",
+    "coordinates": {
+      "latitude": 48.1003,
+      "longitude": 20.7921
+    }
+  },
+  {
+    "name": "Gourmet Delights",
+    "description": "Specialty foods and delicacies",
+    "owner": "Ferenc Molnár",
+    "coordinates": {
+      "latitude": 48.1061,
+      "longitude": 20.7856
+    }
+  },
+  {
+    "name": "Pet Palace",
+    "description": "All your pet needs under one roof",
+    "owner": "Gábor Horváth",
+    "coordinates": {
+      "latitude": 48.1028,
+      "longitude": 20.7842
+    }
+  },
+  {
+    "name": "Sound Studio",
+    "description": "Music instruments and recording studio",
+    "owner": "Hanna Kiss",
+    "coordinates": {
+      "latitude": 48.1036,
+      "longitude": 20.7885
+    }
+  },
+  {
+    "name": "Baker's Corner",
+    "description": "Freshly baked breads and pastries",
+    "owner": "István Farkas",
+    "coordinates": {
+      "latitude": 48.105,
+      "longitude": 20.7899
+    }
+  },
+  {
+    "name": "Wellness Oasis",
+    "description": "Spa and wellness treatments",
+    "owner": "Judit Kocsis",
+    "coordinates": {
+      "latitude": 48.1081,
+      "longitude": 20.7952
     }
   }
 ]

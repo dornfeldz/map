@@ -21,8 +21,8 @@ function App() {
     //     <Shop key={shop.name} shop={shop} />
     //   ))}
     // </div>
-    <div className="h-full w-[25%] flex items-center justify-center">
-      <Map />
+    <div>
+      <Map shops={data} />
     </div>
   );
 }
