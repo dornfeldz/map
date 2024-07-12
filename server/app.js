@@ -16,7 +16,7 @@ const app = express();
 // app.use("/api/v1/shops", shopsRouter);
 
 app.get("/", (req, res) => {
-  res.json([{ name: "Diezel" }]);
+  res.json([{ name: "Dízel" }]);
   // res.send("Hello world");
 });
 
