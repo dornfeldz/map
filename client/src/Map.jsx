@@ -18,15 +18,20 @@ function Map({ shops }) {
     console.log("Map component mounted");
   }, []);
 
+  const newPopup = (e) => {
+    console.log(e);
+  };
+
   return (
     <MapContainer
+      onClick={newPopup}
       center={[47.5027, 19.0491]}
       zoom={14}
       style={{ height: "100vh", width: "100%" }}
     >
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution='&copy; <a href="https://www.meetingareapoint.com/">Meeting Area Point</a>'
       />
       {shops.map((shop) => (
         <Marker

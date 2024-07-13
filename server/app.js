@@ -3,12 +3,7 @@ const fs = require("fs");
 const cors = require("cors");
 
 const app = express();
-
-// const corsOptions = {
-//   origin: "https://map-backend-tau.vercel.app/",
-// };
-
-app.use(cors()); // Use this after the variable declaration
+app.use(cors());
 
 const shopsData = JSON.parse(fs.readFileSync("./data/shops.json", "utf-8"));
 console.log(shopsData);
@@ -21,11 +16,6 @@ shopsRouter = express.Router();
 shopsRouter.route("/").get(getAllShops);
 
 app.use("/", shopsRouter);
-
-// app.get("/", (req, res) => {
-//   res.json([{ name: "Zoltán" }]);
-//   // res.send("Hello world");
-// });
 
 app.listen(8000, () => {
   console.log("App is running...");

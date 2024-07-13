@@ -3,8 +3,6 @@ import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Map from "./Map";
 
-import Shop from "./Shop";
-
 function App() {
   const [data, setData] = useState([]);
 
@@ -13,15 +11,9 @@ function App() {
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
-  console.log(data);
 
   return (
-    // <div>
-    //   {data.map((shop) => (
-    //     <Shop key={shop.name} shop={shop} />
-    //   ))}
-    // </div>
-    <div>
+    <div className="relative">
       <Map shops={data} />
     </div>
   );
