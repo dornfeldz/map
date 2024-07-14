@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 const shopsData = JSON.parse(fs.readFileSync("./data/shops.json", "utf-8"));
-console.log(shopsData);
+// console.log(shopsData);
 
 getAllShops = (req, res) => {
   res.status(200).json(shopsData);

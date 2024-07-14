@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import { MapContainer, TileLayer, useMap, Marker, Popup } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import Map from "./Map";
 
 function App() {
@@ -13,9 +11,18 @@ function App() {
   }, []);
 
   return (
-    <div className="relative">
-      <Map shops={data} />
-    </div>
+    // <div className="flex">
+    //   <div className="w-[50%] h-full">
+    <Map shops={data} />
+    //   </div>
+    //   <div className="p-10 flex flex-col">
+    //     <button className="">Button</button>
+    //     <button className="">Button</button>
+    //     <button className="">Button</button>
+    //     <button className="">Button</button>
+    //     <button className="">Button</button>
+    //   </div>
+    // </div>
   );
 }
 

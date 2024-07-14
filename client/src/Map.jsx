@@ -1,30 +1,24 @@
-// MapComponent.js
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  useMapEvents,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import L from "leaflet";
-import { useEffect } from "react";
 
-// Fix for default icon not displaying correctly in React-Leaflet
-// delete L.Icon.Default.prototype._getIconUrl;
-// L.Icon.Default.mergeOptions({
-//   iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
-//   iconUrl: require("leaflet/dist/images/marker-icon.png"),
-//   shadowUrl: require("leaflet/dist/images/marker-shadow.png"),
-// });
+const MapClickHandler = () => {
+  useMapEvents({
+    click: () => {
+      console.log("Hello World");
+    },
+  });
+  return null;
+};
 
 function Map({ shops }) {
-  useEffect(() => {
-    // Optional: console log for debugging purposes
-    console.log("Map component mounted");
-  }, []);
-
-  const newPopup = (e) => {
-    console.log(e);
-  };
-
   return (
     <MapContainer
-      onClick={newPopup}
       center={[47.5027, 19.0491]}
       zoom={14}
       style={{ height: "100vh", width: "100%" }}
@@ -45,6 +39,7 @@ function Map({ shops }) {
           </Popup>
         </Marker>
       ))}
+      <MapClickHandler />
     </MapContainer>
   );
 }
