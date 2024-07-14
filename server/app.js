@@ -15,7 +15,7 @@ getAllShops = (req, res) => {
 shopsRouter = express.Router();
 shopsRouter.route("/").get(getAllShops);
 
-app.use("/", shopsRouter);
+app.use("/shops", shopsRouter);
 
 app.listen(8000, () => {
   console.log("App is running...");
