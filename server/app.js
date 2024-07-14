@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 const shopsData = JSON.parse(
-  fs.readFileSync("server/data/shops.json", "utf-8")
+  fs.readFileSync(`${__dirname}/data/shops.json`, "utf-8")
 );
 // console.log(shopsData);
 
