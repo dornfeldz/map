@@ -5,7 +5,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:8000/")
+    fetch("https://map-backend-tau.vercel.app/shops")
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);

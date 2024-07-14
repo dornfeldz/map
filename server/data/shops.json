@@ -117,6 +117,15 @@
     }
   },
   {
+    "name": "Cycle Town",
+    "description": "Bicycle sales and repairs",
+    "owner": "Mia Wright",
+    "coordinates": {
+      "latitude": 47.51,
+      "longitude": 19.039
+    }
+  },
+  {
     "name": "Beauty Bliss",
     "description": "Beauty salon and spa treatments",
     "owner": "Nina King",
