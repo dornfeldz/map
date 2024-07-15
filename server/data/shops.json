@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Coffee Corner",
     "description": "A cozy place for coffee and snacks",
     "owner": "Alice Johnson",
@@ -9,6 +10,7 @@
     }
   },
   {
+    "id": 2,
     "name": "Book Nook",
     "description": "Your local bookstore with a wide variety of genres",
     "owner": "Bob Smith",
@@ -18,6 +20,7 @@
     }
   },
   {
+    "id": 3,
     "name": "Tech Haven",
     "description": "Latest gadgets and electronics",
     "owner": "Carol Davis",
@@ -27,6 +30,7 @@
     }
   },
   {
+    "id": 4,
     "name": "Fashion Fiesta",
     "description": "Trendy clothing and accessories",
     "owner": "David Martinez",
@@ -36,6 +40,7 @@
     }
   },
   {
+    "id": 5,
     "name": "Artistic Alley",
     "description": "Gallery and art supplies",
     "owner": "Eve Thompson",
@@ -45,6 +50,7 @@
     }
   },
   {
+    "id": 6,
     "name": "Gourmet Grocers",
     "description": "Fresh organic produce and gourmet items",
     "owner": "Frank White",
@@ -54,6 +60,7 @@
     }
   },
   {
+    "id": 7,
     "name": "Pet Paradise",
     "description": "Pet supplies and grooming services",
     "owner": "Grace Hall",
@@ -63,6 +70,7 @@
     }
   },
   {
+    "id": 8,
     "name": "Music Masters",
     "description": "Instruments and music lessons",
     "owner": "Henry Clark",
@@ -72,6 +80,7 @@
     }
   },
   {
+    "id": 9,
     "name": "Baker's Delight",
     "description": "Freshly baked breads and pastries",
     "owner": "Ivy Brown",
@@ -81,6 +90,7 @@
     }
   },
   {
+    "id": 10,
     "name": "Wellness Works",
     "description": "Spa and wellness center",
     "owner": "Jack Lee",
@@ -90,6 +100,7 @@
     }
   },
   {
+    "id": 11,
     "name": "Vintage Vogue",
     "description": "Retro and vintage clothing",
     "owner": "Karen Walker",
@@ -99,6 +110,7 @@
     }
   },
   {
+    "id": 12,
     "name": "Green Thumb",
     "description": "Garden center and plant nursery",
     "owner": "Leo Young",
@@ -108,6 +120,7 @@
     }
   },
   {
+    "id": 13,
     "name": "Cycle City",
     "description": "Bicycle sales and repairs",
     "owner": "Mia Wright",
@@ -117,6 +130,7 @@
     }
   },
   {
+    "id": 14,
     "name": "Cycle Town",
     "description": "Bicycle sales and repairs",
     "owner": "Mia Wright",
@@ -126,6 +140,7 @@
     }
   },
   {
+    "id": 15,
     "name": "Beauty Bliss",
     "description": "Beauty salon and spa treatments",
     "owner": "Nina King",
@@ -135,6 +150,7 @@
     }
   },
   {
+    "id": 16,
     "name": "Home Comforts",
     "description": "Furniture and home decor",
     "owner": "Oscar Green",
@@ -144,6 +160,7 @@
     }
   },
   {
+    "id": 17,
     "name": "Toy Town",
     "description": "Toys and games for all ages",
     "owner": "Paula Adams",
@@ -153,6 +170,7 @@
     }
   },
   {
+    "id": 18,
     "name": "Sweet Treats",
     "description": "Candy and dessert shop",
     "owner": "Quinn Baker",
@@ -162,6 +180,7 @@
     }
   },
   {
+    "id": 19,
     "name": "Digital Dreams",
     "description": "Photography and videography services",
     "owner": "Rachel Scott",
@@ -171,6 +190,7 @@
     }
   },
   {
+    "id": 20,
     "name": "Fitness First",
     "description": "Gym and fitness center",
     "owner": "Sam Parker",
@@ -180,6 +200,7 @@
     }
   },
   {
+    "id": 21,
     "name": "Flower Fantasy",
     "description": "Florist with a wide selection of flowers",
     "owner": "Tina Morgan",
@@ -189,6 +210,7 @@
     }
   },
   {
+    "id": 22,
     "name": "Taste of Hungary",
     "description": "Traditional Hungarian cuisine restaurant",
     "owner": "Anna Kovács",
@@ -198,6 +220,7 @@
     }
   },
   {
+    "id": 23,
     "name": "Book Haven",
     "description": "A paradise for book lovers",
     "owner": "Béla Nagy",
@@ -207,6 +230,7 @@
     }
   },
   {
+    "id": 24,
     "name": "Tech World",
     "description": "Latest tech gadgets and accessories",
     "owner": "Csaba Tóth",
@@ -216,6 +240,7 @@
     }
   },
   {
+    "id": 25,
     "name": "Fashion Forward",
     "description": "Trendy and stylish clothing",
     "owner": "Dóra Szabó",
@@ -225,6 +250,7 @@
     }
   },
   {
+    "id": 26,
     "name": "Artistic Expressions",
     "description": "Art gallery and creative workshops",
     "owner": "Erika Varga",
@@ -234,6 +260,7 @@
     }
   },
   {
+    "id": 27,
     "name": "Gourmet Delights",
     "description": "Specialty foods and delicacies",
     "owner": "Ferenc Molnár",
@@ -243,6 +270,7 @@
     }
   },
   {
+    "id": 28,
     "name": "Pet Palace",
     "description": "All your pet needs under one roof",
     "owner": "Gábor Horváth",
@@ -252,6 +280,7 @@
     }
   },
   {
+    "id": 29,
     "name": "Sound Studio",
     "description": "Music instruments and recording studio",
     "owner": "Hanna Kiss",
@@ -261,6 +290,7 @@
     }
   },
   {
+    "id": 30,
     "name": "Baker's Corner",
     "description": "Freshly baked breads and pastries",
     "owner": "István Farkas",
@@ -270,6 +300,7 @@
     }
   },
   {
+    "id": 31,
     "name": "Wellness Oasis",
     "description": "Spa and wellness treatments",
     "owner": "Judit Kocsis",

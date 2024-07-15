@@ -43,7 +43,7 @@ function Map({ shops }) {
       />
       {shops.map((shop) => (
         <Marker
-          key={shop.name}
+          key={shop.id}
           position={[shop.coordinates.latitude, shop.coordinates.longitude]}
         >
           <Popup>
