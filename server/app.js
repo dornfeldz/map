@@ -14,11 +14,18 @@ getAllShops = (req, res) => {
   res.status(200).json(shopsData);
 };
 
+createShop = (req, res) => {
+  console.log("createShop");
+};
+
+deleteShop = (req, res) => {
+  console.log("deleting shop");
+};
+
 shopsRouter = express.Router();
-shopsRouter.route("/").get(getAllShops);
+shopsRouter.route("/").get(getAllShops).post(createShop).delete(deleteShop);
 
 app.use("/shops", shopsRouter);
-
 app.listen(8000, () => {
   console.log("App is running...");
 });
