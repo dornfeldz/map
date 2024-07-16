@@ -44,13 +44,11 @@ function Map({ shops }) {
       />
       {shops.map((shop) => (
         <Marker
-          key={shop.id}
+          key={shop.name}
           position={[shop.coordinates.latitude, shop.coordinates.longitude]}
         >
           <Popup>
-            <h1 className="font-bold">
-              ({shop.id}) {shop.name}
-            </h1>
+            <h1 className="font-bold">{shop.name}</h1>
             <p>{shop.description}</p>
             <p>Owned by {shop.owner}</p>
             <div className="flex underline gap-2 underline-offset-1">
