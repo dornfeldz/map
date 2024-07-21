@@ -5,20 +5,17 @@ const { MongoClient } = require("mongodb");
 const mongoose = require("mongoose");
 const connectDB = require("./dbConn");
 const Shop = require("./model/Shop");
+const createSampleDocument = require("./utils");
 
 connectDB();
+const db = mongoose.connection;
+db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-const shopsData = JSON.parse(
-  fs.readFileSync(`${__dirname}/data/shops.json`, "utf-8")
-);
-// console.log(shopsData);
-
 getAllShops = async (req, res) => {
-  // res.status(200).json(shopsData);
   try {
     const shops = await Shop.find();
     console.log(shops);
