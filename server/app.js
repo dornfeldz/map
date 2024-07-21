@@ -1,7 +1,5 @@
 const express = require("express");
-const fs = require("fs");
 const cors = require("cors");
-const { MongoClient } = require("mongodb");
 const mongoose = require("mongoose");
 const connectDB = require("./dbConn");
 const Shop = require("./model/Shop");
@@ -18,7 +16,7 @@ app.use(express.json());
 getAllShops = async (req, res) => {
   try {
     const shops = await Shop.find();
-    console.log(shops);
+    // console.log(shops);
     res.json(shops);
   } catch (error) {
     console.log(error);

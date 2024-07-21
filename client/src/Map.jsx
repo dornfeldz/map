@@ -12,15 +12,21 @@ import Form from "./Form";
 import { useState } from "react";
 
 function Map({ shops }) {
-  const [diplayForm, setDislayForm] = useState(false);
+  const [displayForm, setDislayForm] = useState(false);
 
   const MapClickHandler = () => {
     useMapEvents({
       click: (e) => {
-        console.log(e.latlng);
+        handleNewShop(e);
       },
     });
     return null;
+  };
+
+  const handleNewShop = (e) => {
+    console.log(e.latlng);
+
+    setDislayForm(!displayForm);
   };
 
   const handleUpdateShop = (shop) => {
@@ -32,12 +38,16 @@ function Map({ shops }) {
     console.log(
       `Deleting ${shop.name} at lat: ${shop.coordinates.latitude}, lng:${shop.coordinates.longitude}...`
     );
-    axios.delete("http://localhost:8000/shops");
-    alert(`deleting ${shop.name}`);
   };
 
   return (
-    <div style={{ position: "relative", width: "100%", height: "100vh" }}>
+    <div
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100vh",
+      }}
+    >
       <MapContainer
         center={[47.5027, 19.0491]}
         zoom={14}
@@ -68,19 +78,22 @@ function Map({ shops }) {
         ))}
         <MapClickHandler />
       </MapContainer>
-      <div
-        style={{
-          position: "absolute",
-          top: "10px",
-          left: "10px",
-          backgroundColor: "white",
-          padding: "10px",
-          borderRadius: "5px",
-          boxShadow: "0px 0px 10px rgba(0,0,0,0.5)",
-          zIndex: "1000",
-        }}
-      >
-        <Form />
+      <div className={displayForm ? "block" : "hidden"}>
+        <div
+          style={{
+            position: "absolute",
+            left: "50%",
+            top: "50%",
+            transform: "translate(-50%, -50%)",
+            backgroundColor: "white",
+            padding: "10px",
+            borderRadius: "5px",
+            boxShadow: "0px 0px 10px rgba(0,0,0,0.5)",
+            zIndex: "1000",
+          }}
+        >
+          <Form />
+        </div>
       </div>
     </div>
   );
