@@ -9,8 +9,11 @@ import "leaflet/dist/leaflet.css";
 import "./leafletIconSetup";
 import axios from "axios";
 import Form from "./Form";
+import { useState } from "react";
 
 function Map({ shops }) {
+  const [diplayForm, setDislayForm] = useState(false);
+
   const MapClickHandler = () => {
     useMapEvents({
       click: (e) => {
@@ -34,12 +37,14 @@ function Map({ shops }) {
   };
 
   return (
-    <>
-      <Form />
+    <div style={{ position: "relative", width: "100%", height: "100vh" }}>
       <MapContainer
         center={[47.5027, 19.0491]}
         zoom={14}
-        style={{ height: "100vh", width: "100%" }}
+        style={{
+          height: "100vh",
+          width: "100%",
+        }}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -63,7 +68,21 @@ function Map({ shops }) {
         ))}
         <MapClickHandler />
       </MapContainer>
-    </>
+      <div
+        style={{
+          position: "absolute",
+          top: "10px",
+          left: "10px",
+          backgroundColor: "white",
+          padding: "10px",
+          borderRadius: "5px",
+          boxShadow: "0px 0px 10px rgba(0,0,0,0.5)",
+          zIndex: "1000",
+        }}
+      >
+        <Form />
+      </div>
+    </div>
   );
 }
 
