@@ -5,7 +5,6 @@ const URI = process.env.DB_URI;
 
 const connectDB = async () => {
   try {
-    console.log(typeof URI);
     await mongoose.connect(URI);
   } catch (error) {
     console.log(error);
