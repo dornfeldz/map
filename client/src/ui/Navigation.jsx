@@ -16,7 +16,7 @@ function Navigation() {
       </Link>
       <Link to="/map">
         <img
-          src="public\imgs\01 MAP_logo_black.png"
+          src="https://i.imgur.com/3Q8e7gc.png"
           alt="MAP logo"
           className="w-20 h-20 -translate-y-6 bg-[#D0FE1D] rounded-full"
         />

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "John Doe",
     "username": "@johndoe",
     "postedAgo": "2h",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Jane Smith",
     "username": "@janesmith",
     "postedAgo": "1d",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Mike Johnson",
     "username": "@mikejohnson",
     "postedAgo": "3d",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Emily Davis",
     "username": "@emilydavis",
     "postedAgo": "5d",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Chris Lee",
     "username": "@chrislee",
     "postedAgo": "1w",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Sarah Brown",
     "username": "@sarahbrown",
     "postedAgo": "2w",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "David Wilson",
     "username": "@davidwilson",
     "postedAgo": "3w",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Laura Martinez",
     "username": "@lauramartinez",
     "postedAgo": "1mo",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "James Anderson",
     "username": "@jamesanderson",
     "postedAgo": "1mo",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "profilePicture": "public/imgs/avatar.jpg",
+    "profilePicture": "https://i.imgur.com/tpTbyMY.jpeg",
     "fullName": "Anna Thompson",
     "username": "@annathompson",
     "postedAgo": "2mo",

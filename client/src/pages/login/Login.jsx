@@ -29,7 +29,7 @@ function Login() {
       </form>
       <div className="w-32 ml-auto mr-auto">
         <Link
-          to="/map"
+          to="/timeline"
           className="py-3 px-5 rounded-full bg-[#D0FE1D] text-xl font-medium flex justify-center"
         >
           Sign in!
