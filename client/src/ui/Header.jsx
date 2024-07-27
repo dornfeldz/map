@@ -8,7 +8,7 @@ function Header() {
       </div>
       <div className="flex flex-col justify-center">
         <img
-          src="public\imgs\avatar.jpg"
+          src="https://i.imgur.com/tpTbyMY.jpeg"
           alt="default avatar image"
           className="rounded-full w-7 h-7"
         />
