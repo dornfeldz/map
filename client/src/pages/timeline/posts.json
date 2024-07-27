@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "John Doe",
+    "username": "@johndoe",
+    "postedAgo": "2h",
+    "text": "This is a sample post by John Doe.",
+    "picture": "https://example.com/pic1.jpg",
+    "likes": 150,
+    "comments": 20
+  },
+  {
+    "id": 2,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Jane Smith",
+    "username": "@janesmith",
+    "postedAgo": "1d",
+    "text": "Enjoying the beautiful weather today!",
+    "picture": null,
+    "likes": 200,
+    "comments": 35
+  },
+  {
+    "id": 3,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Mike Johnson",
+    "username": "@mikejohnson",
+    "postedAgo": "3d",
+    "text": "Had an amazing time at the concert last night.",
+    "picture": "https://example.com/pic2.jpg",
+    "likes": 300,
+    "comments": 45
+  },
+  {
+    "id": 4,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Emily Davis",
+    "username": "@emilydavis",
+    "postedAgo": "5d",
+    "text": "Just finished reading a great book!",
+    "picture": null,
+    "likes": 250,
+    "comments": 30
+  },
+  {
+    "id": 5,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Chris Lee",
+    "username": "@chrislee",
+    "postedAgo": "1w",
+    "text": "Trying out a new recipe today.",
+    "picture": "https://example.com/pic3.jpg",
+    "likes": 180,
+    "comments": 25
+  },
+  {
+    "id": 6,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Sarah Brown",
+    "username": "@sarahbrown",
+    "postedAgo": "2w",
+    "text": "Just started a new project at work!",
+    "picture": null,
+    "likes": 220,
+    "comments": 40
+  },
+  {
+    "id": 7,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "David Wilson",
+    "username": "@davidwilson",
+    "postedAgo": "3w",
+    "text": "Went hiking this weekend. It was amazing!",
+    "picture": "https://example.com/pic4.jpg",
+    "likes": 320,
+    "comments": 55
+  },
+  {
+    "id": 8,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Laura Martinez",
+    "username": "@lauramartinez",
+    "postedAgo": "1mo",
+    "text": "Loving my new job!",
+    "picture": null,
+    "likes": 270,
+    "comments": 37
+  },
+  {
+    "id": 9,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "James Anderson",
+    "username": "@jamesanderson",
+    "postedAgo": "1mo",
+    "text": "Spent the weekend at a beach resort. Highly recommend!",
+    "picture": "https://example.com/pic5.jpg",
+    "likes": 350,
+    "comments": 60
+  },
+  {
+    "id": 10,
+    "profilePicture": "public/imgs/avatar.jpg",
+    "fullName": "Anna Thompson",
+    "username": "@annathompson",
+    "postedAgo": "2mo",
+    "text": "Started a new fitness routine today.",
+    "picture": "https://example.com/pic6.jpg",
+    "likes": 400,
+    "comments": 70
+  }
+]

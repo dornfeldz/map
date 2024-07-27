@@ -1,18 +1,16 @@
 import {
   MapContainer,
-  TileLayer,
   Marker,
   Popup,
+  TileLayer,
   useMapEvents,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "./leafletIconSetup";
-import axios from "axios";
-import Form from "./Form";
 import { useState } from "react";
+import { useLoaderData } from "react-router-dom";
 
-function Map({ shops }) {
-  const [displayForm, setDislayForm] = useState(false);
+function Map() {
+  const shops = useLoaderData();
 
   const MapClickHandler = () => {
     useMapEvents({
@@ -26,7 +24,7 @@ function Map({ shops }) {
   const handleNewShop = (e) => {
     console.log(e.latlng);
 
-    setDislayForm(!displayForm);
+    // setDislayForm(!displayForm);
   };
 
   const handleUpdateShop = (shop) => {
@@ -41,25 +39,16 @@ function Map({ shops }) {
   };
 
   return (
-    <div
-      style={{
-        position: "relative",
-        width: "100%",
-        height: "100vh",
-      }}
-    >
+    <div style={{ height: "100%", width: "100%" }}>
       <MapContainer
         center={[47.5027, 19.0491]}
         zoom={14}
         style={{
-          height: "100vh",
+          height: "80vh",
           width: "100%",
         }}
       >
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="https://www.meetingareapoint.com/">Meeting Area Point</a>'
-        />
+        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
         {shops.map((shop) => (
           <Marker
             key={shop.name}
@@ -78,23 +67,6 @@ function Map({ shops }) {
         ))}
         <MapClickHandler />
       </MapContainer>
-      <div className={displayForm ? "block" : "hidden"}>
-        <div
-          style={{
-            position: "absolute",
-            left: "50%",
-            top: "50%",
-            transform: "translate(-50%, -50%)",
-            backgroundColor: "white",
-            padding: "10px",
-            borderRadius: "5px",
-            boxShadow: "0px 0px 10px rgba(0,0,0,0.5)",
-            zIndex: "1000",
-          }}
-        >
-          <Form />
-        </div>
-      </div>
     </div>
   );
 }
