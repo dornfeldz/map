@@ -6,7 +6,7 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import { useState } from "react";
+import "./leafletIconSetup";
 import { useLoaderData } from "react-router-dom";
 
 function Map() {
