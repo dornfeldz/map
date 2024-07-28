@@ -5,9 +5,17 @@ import {
   TileLayer,
   useMapEvents,
 } from "react-leaflet";
+import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 // import "./leafletIconSetup";
 import { useLoaderData } from "react-router-dom";
+
+const markerIcon = new L.Icon({
+  iconUrl: "https://i.imgur.com/Nh1Zcv3.png",
+  iconSize: [32, 32],
+  iconAnchor: [16, 32],
+  popupAnchor: [0, -32],
+});
 
 function Map() {
   const shops = useLoaderData();
@@ -53,6 +61,7 @@ function Map() {
           <Marker
             key={shop.name}
             position={[shop.coordinates.latitude, shop.coordinates.longitude]}
+            icon={markerIcon}
           >
             <Popup>
               <h1 className="font-bold">{shop.name}</h1>
