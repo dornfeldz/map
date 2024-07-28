@@ -19,11 +19,11 @@ function Post({ post }) {
       <div className="flex items-center gap-3 mb-2">
         <div className="flex items-center gap-1">
           <HiOutlineHeart />
-          <p>{post.likes}</p>
+          <p className="text-sm">{post.likes}</p>
         </div>
         <div className="flex items-center gap-1">
           <HiOutlineChatBubbleBottomCenterText />
-          <p>{post.comments}</p>
+          <p className="text-sm">{post.comments}</p>
         </div>
         <div className="flex items-center">
           <HiOutlinePaperAirplane />

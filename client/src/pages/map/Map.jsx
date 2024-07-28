@@ -6,7 +6,7 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import "./leafletIconSetup";
+// import "./leafletIconSetup";
 import { useLoaderData } from "react-router-dom";
 
 function Map() {
@@ -44,11 +44,11 @@ function Map() {
         center={[47.5027, 19.0491]}
         zoom={14}
         style={{
-          height: "80vh",
+          height: "84vh",
           width: "100%",
         }}
       >
-        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+        <TileLayer url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}" />
         {shops.map((shop) => (
           <Marker
             key={shop.name}

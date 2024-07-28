@@ -7,25 +7,25 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div className="flex justify-around items-center h-[10vh] z-[1000]">
+    <div className="flex justify-around items-center h-[8vh] z-[1000]">
       <Link to="/timeline">
-        <HiOutlineHome className="text-3xl" />
+        <HiOutlineHome className="text-2xl" />
       </Link>
       <Link to="/search">
-        <HiOutlineMagnifyingGlass className="text-3xl" />
+        <HiOutlineMagnifyingGlass className="text-2xl" />
       </Link>
-      <Link to="/map">
+      <Link to="/map" className="-translate-y-6">
         <img
           src="https://i.imgur.com/3Q8e7gc.png"
           alt="MAP logo"
-          className="w-20 h-20 -translate-y-6 bg-[#D0FE1D] rounded-full"
+          className="w-20 h-20 bg-[#D0FE1D] rounded-full"
         />
       </Link>
       <Link to="/chat">
-        <HiOutlineChatBubbleOvalLeft className="text-3xl" />
+        <HiOutlineChatBubbleOvalLeft className="text-2xl" />
       </Link>
       <Link to="/notifications">
-        <HiOutlineBell className="text-3xl" />
+        <HiOutlineBell className="text-2xl" />
       </Link>
     </div>
   );
