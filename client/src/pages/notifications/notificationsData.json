@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "store_name": "Amazon",
+    "title": "New Discount Available!",
+    "sent_time": "5 minutes ago"
+  },
+  {
+    "id": 2,
+    "store_name": "Walmart",
+    "title": "Flash Sale Alert!",
+    "sent_time": "10 minutes ago"
+  },
+  {
+    "id": 3,
+    "store_name": "Target",
+    "title": "New Arrivals in Store",
+    "sent_time": "1 hour ago"
+  },
+  {
+    "id": 4,
+    "store_name": "Best Buy",
+    "title": "Limited Time Offer",
+    "sent_time": "3 hours ago"
+  },
+  {
+    "id": 5,
+    "store_name": "Costco",
+    "title": "Special Member Discount",
+    "sent_time": "1 day ago"
+  },
+  {
+    "id": 6,
+    "store_name": "Apple Store",
+    "title": "New Product Launch",
+    "sent_time": "2 days ago"
+  },
+  {
+    "id": 7,
+    "store_name": "Macy's",
+    "title": "Clearance Sale",
+    "sent_time": "3 days ago"
+  },
+  {
+    "id": 8,
+    "store_name": "Sephora",
+    "title": "Beauty Insider Sale",
+    "sent_time": "4 days ago"
+  },
+  {
+    "id": 4,
+    "store_name": "Best Buy",
+    "title": "Limited Time Offer",
+    "sent_time": "3 hours ago"
+  },
+  {
+    "id": 5,
+    "store_name": "Costco",
+    "title": "Special Member Discount",
+    "sent_time": "1 day ago"
+  },
+  {
+    "id": 6,
+    "store_name": "Apple Store",
+    "title": "New Product Launch",
+    "sent_time": "2 days ago"
+  },
+  {
+    "id": 7,
+    "store_name": "Macy's",
+    "title": "Clearance Sale",
+    "sent_time": "3 days ago"
+  },
+  {
+    "id": 8,
+    "store_name": "Sephora",
+    "title": "Beauty Insider Sale",
+    "sent_time": "4 days ago"
+  }
+]
