@@ -49,7 +49,9 @@ function Signup() {
           Sign up!
         </Link>
       </div>
-      <p className="flex justify-center mt-16 underline text-blue-800">T&C</p>
+      <p className="flex justify-center mt-16 underline text-blue-800">
+        Terms & Conditions
+      </p>
     </div>
   );
 }

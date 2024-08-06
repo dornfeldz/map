@@ -11,7 +11,7 @@ function Timeline() {
       <input
         type="text"
         name="makePost"
-        className="bg-gray-300 px-4 py-1 rounded-full w-[85%] mb-3"
+        className="bg-gray-300 px-4 py-1 rounded-full w-[85%] mb-3 mt-1"
         placeholder="What's on your mind?"
       />
       <div>
