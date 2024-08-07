@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
-    <div className="flex justify-around items-center h-[8vh] z-[1000]">
+    <div className="flex justify-around items-center h-[8vh] z-[39]">
       <Link to="/timeline">
         <HiOutlineHome className="text-2xl" />
       </Link>
@@ -18,7 +18,7 @@ function Navigation() {
         <img
           src="https://i.imgur.com/3Q8e7gc.png"
           alt="MAP logo"
-          className="w-20 h-20 bg-[#D0FE1D] rounded-full"
+          className="w-20 h-20 bg-[#D0FE1D] rounded-full z-40"
         />
       </Link>
       <Link to="/chat">
