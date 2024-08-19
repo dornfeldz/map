@@ -11,7 +11,7 @@ function AppLayout() {
     <div className="grid h-screen grid-rows-[auto_1fr_auto]">
       {isLoading && <Loader />}
       <Header />
-      <div className="overflow-x-scroll scrollbar-hide">
+      <div className="overflow-x-scroll scrollbar-hide z-0">
         <Outlet />
       </div>
       <Navigation />

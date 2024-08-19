@@ -2,7 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slideIn: {
+          "0%": { left: "-50%" },
+          "100%": { left: "0%" },
+        },
+      },
+      animation: {
+        slideIn: "slideIn 1s ease-in-out forwards",
+      },
+    },
   },
   plugins: [
     function ({ addUtilities }) {

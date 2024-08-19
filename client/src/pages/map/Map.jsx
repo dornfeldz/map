@@ -47,7 +47,7 @@ function Map() {
   };
 
   return (
-    <div style={{ height: "100%", width: "100%" }}>
+    <div className="h-full w-full">
       <MapContainer
         center={[47.5027, 19.0491]}
         zoom={14}
