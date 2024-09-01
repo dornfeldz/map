@@ -4,9 +4,7 @@ import { HiOutlineXMark } from "react-icons/hi2";
 import HamburgerMenu from "./HamburgerMenu";
 import { Link } from "react-router-dom";
 
-function Header() {
-  const [isClosed, setIsClosed] = useState(true);
-
+function Header({ isClosed, setIsClosed }) {
   const toggleMenu = () => {
     setIsClosed(!isClosed);
     console.log(isClosed);
@@ -30,7 +28,6 @@ function Header() {
           />
         </Link>
       </div>
-      {!isClosed && <HamburgerMenu isClosed={isClosed} />}
     </div>
   );
 }

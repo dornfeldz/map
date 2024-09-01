@@ -28,12 +28,9 @@
 .slide {
   position: absolute;
   left: -100px;
-  width: 100px;
-  height: 100px;
-  -webkit-animation: slide 0.5s forwards;
-  -webkit-animation-delay: 2s;
-  animation: slide 0.5s forwards;
-  animation-delay: 2s;
+  /* Make the animation faster (0.3s instead of 0.5s) */
+  -webkit-animation: slide 0.3s ease-out forwards;
+  animation: slide 0.3s ease-out forwards;
 }
 
 @-webkit-keyframes slide {
