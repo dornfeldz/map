@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const connectDB = require("./dbConn");
 const Shop = require("./model/Shop");
 const createSampleDocument = require("./utils");
-
+//Hello
 connectDB();
 const db = mongoose.connection;
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
