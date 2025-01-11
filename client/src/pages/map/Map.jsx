@@ -11,7 +11,8 @@ import "leaflet/dist/leaflet.css";
 import { useLoaderData } from "react-router-dom";
 
 const markerIcon = new L.Icon({
-  iconUrl: "https://i.imgur.com/Nh1Zcv3.png",
+  iconUrl:
+    "https://res.cloudinary.com/duucjutx3/image/upload/v1736626343/react%20retail/d4pcctifppxdkbwolmmd.png",
   iconSize: [32, 32],
   iconAnchor: [16, 32],
   popupAnchor: [0, -32],
@@ -47,7 +48,7 @@ function Map() {
   };
 
   return (
-    <div className="h-full w-full">
+    <div className="w-full h-full">
       <MapContainer
         center={[47.5027, 19.0491]}
         zoom={14}
@@ -67,7 +68,7 @@ function Map() {
               <h1 className="font-bold">{shop.name}</h1>
               <p>{shop.description}</p>
               <p>Owned by {shop.owner}</p>
-              <div className="flex underline gap-2 underline-offset-1">
+              <div className="flex gap-2 underline underline-offset-1">
                 <button onClick={() => handleUpdateShop(shop)}>Update</button>
                 <button onClick={() => handleDeleteShop(shop)}>Delete</button>
               </div>
