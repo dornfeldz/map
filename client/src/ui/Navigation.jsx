@@ -16,7 +16,7 @@ function Navigation() {
       </Link>
       <Link to="/map" className="-translate-y-6">
         <img
-          src="https://i.imgur.com/3Q8e7gc.png"
+          src="https://res.cloudinary.com/duucjutx3/image/upload/v1736626343/react%20retail/dcbsykfjtuvtxjy6jjyi.png"
           alt="MAP logo"
           className="w-20 h-20 bg-[#D0FE1D] rounded-full z-40"
         />

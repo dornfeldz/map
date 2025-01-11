@@ -22,7 +22,7 @@ function Header({ isClosed, setIsClosed }) {
       <div className="flex flex-col justify-center pr-5">
         <Link to="/profile">
           <img
-            src="https://i.imgur.com/tpTbyMY.jpeg"
+            src="https://res.cloudinary.com/duucjutx3/image/upload/v1736627138/react%20retail/eou8llqyj7gqzza5tmac.jpg"
             alt="default avatar image"
             className="rounded-full w-7 h-7"
           />
