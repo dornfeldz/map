@@ -13,13 +13,13 @@ function Profile() {
           <div>
             <h1 className="font-bold">username</h1>
             <p>full name</p>
-            <p className="text-gray-400 text-sm">1,045 followers</p>
+            <p className="text-sm text-gray-400">1,045 followers</p>
           </div>
           <div>
             <img
-              src="https://i.imgur.com/tpTbyMY.jpeg"
+              src="https://res.cloudinary.com/duucjutx3/image/upload/v1736627138/react%20retail/eou8llqyj7gqzza5tmac.jpg"
               alt="profile picture"
-              className="size-16 rounded-full"
+              className="rounded-full size-16"
             />
           </div>
         </div>
@@ -32,11 +32,11 @@ function Profile() {
           </button>
         </div>
         <div className="flex justify-around">
-          <button className="w-full border-b border-black pb-1 font-bold">
+          <button className="w-full pb-1 font-bold border-b border-black">
             Posts
           </button>
-          <button className="w-full border-b pb-1">Likes</button>
-          <button className="w-full border-b pb-1">Appointments</button>
+          <button className="w-full pb-1 border-b">Likes</button>
+          <button className="w-full pb-1 border-b">Appointments</button>
         </div>
       </div>
       <div className="h-full overflow-y-scroll scrollbar-hide">

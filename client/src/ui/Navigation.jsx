@@ -18,7 +18,7 @@ function Navigation() {
         <img
           src="https://res.cloudinary.com/duucjutx3/image/upload/v1736626343/react%20retail/dcbsykfjtuvtxjy6jjyi.png"
           alt="MAP logo"
-          className="w-20 h-20 bg-[#D0FE1D] rounded-full z-40"
+          className="w-20 h-20 bg-[#D0FE1D] rounded-full z-40 p-2"
         />
       </Link>
       <Link to="/chat">
